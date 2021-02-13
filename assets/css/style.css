@@ -1,41 +1,219 @@
 body {
-    background-color: #d9dcd6;
+  background-color: #d0e8f2;
+  font-family: 'Merriweather', serif;
 }
 
-h1 {
+h1 {}
 
+main {
+  width: 96%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-nav {
-
+footer {
+  margin: 1.5rem;
+ padding-bottom: 2rem;
+  text-align: center;
 }
 
 /* HEADER */
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 36px;
+  display: inline-block;
+  font-size: 36px;
 }
 
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+
 }
 
 header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Top Container */
+.top-container {
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 10px;
+  margin: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.top-container img {
+  /* height: 50%; */
+  width: 40%;
+  margin: 5% 5% 5% 5%;
+  border-radius: 5%;
+  float: left;
+  /* float: left; */
+}
+
+.top-text {
+  float: left;
+  margin: 5% 10% 5% 2%;
+}
+
+.top-container h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #005082;
+  margin-top: 25%;
+
+}
+
+.top-container-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #005082;
+  padding-bottom: 10px;
+  margin-top: 5%;
+  position: relative;
+  height: 200px;
+  top: 20px;
+  bottom: 80px;
+  /* position: relative;
+  top: -80px; */
+ 
+}
+
+.top-container h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #005082;
+}
+
+.top-container p {
+  line-height: 2;
+  margin-top: 10%;
+}
+
+/* Middle Container */
+
+.middle-container {
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 10px;
+  margin: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  /* float: left; */
+
+}
+
+.middle-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #005082;
+  padding-bottom: 10px;
+  margin-top: 5%;
+}
+
+/* Bottom Container */
+.bottom-container {
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 10px;
+  margin: 3%;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 96%;
+}
+
+.bottom-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #005082;
+  padding-bottom: 10px;
+  margin-top: 5%;
+}
+
+
+/* Card */
+.card {
+  flex: 1 0 0;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  width: 32%;
+  margin: 2%;
+}
+
+.card img {
+  width: 100%;
+
+}
+
+.card header {
+  padding: 5px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.top-container-header {
+  padding: 5px;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  text-align: center;
+ display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #005082;
+
+  margin-top: 5%;
+  
+  border-radius: 5px;
+  text-align: left;
+  /* margin-top: 25px; */
+
+}
+
+
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+
+  /* on tablets, set columns to only be 50% of the width and not grow */
+  .card-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* select the last child to grow to full width if it has space to grow */
+  .card-column:last-child {
+    flex-grow: 1;
+  }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  header {
+    width: 75%;
+  }
+
+  .card-column {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
 }
