@@ -23,6 +23,7 @@ header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #ffffff;
+  text-align: right;
 }
 
 header h1 {
@@ -53,8 +54,10 @@ header nav ul li {
   padding: 10px;
   margin: 3%;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   float: left;
+  width: 96%;
 }
 
 .top-container img {
@@ -80,22 +83,22 @@ header nav ul li {
 
 }
 
-.top-container-header h2 {
+.top-container-header {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.0rem;
   color: #005082;
-  padding-bottom: 10px;
-  margin-top: 5%;
+  padding: 40px;
   position: relative;
-  height: 200px;
-  top: 20px;
-  bottom: 80px;
-  /* position: relative;
-  top: -80px; */
- 
+  /* max-height: 40px; */
+  top: 110px;
+  left: 75px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
 }
 
-.top-container h3 {
+
+.top-container h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.0rem;
   color: #005082;
@@ -113,35 +116,50 @@ header nav ul li {
   padding: 10px;
   margin: 3%;
   display: flex;
-  flex-wrap: wrap;
-  /* float: left; */
+  flex-wrap: wrap; 
+  width: 96%;
 
 }
 
-.middle-container h2 {
+.middle-container-header {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.0rem;
   color: #005082;
-  padding-bottom: 10px;
-  margin-top: 5%;
+  padding: 40px;
+  position: relative;
+  /* max-height: 40px; */
+  top: 110px;
+  left: 75px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
 }
 
 /* Bottom Container */
 .bottom-container {
   background-color: rgb(255, 255, 255, 0.7);
-  padding: 10px;
+  padding: 50px;
   margin: 3%;
-  flex-wrap: wrap;
-  height: 400px;
+  display: flex;
+  flex-wrap: stretch;
+  /* height: 400px; */
   width: 96%;
+  flex-direction: row;
+  text-align: center;
 }
 
-.bottom-container h2 {
+.bottom-container-header {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.0rem;
   color: #005082;
-  padding-bottom: 10px;
-  margin-top: 5%;
+  padding: 40px;
+  position: relative;
+  /* max-height: 40px; */
+  top: 110px;
+  left: 75px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -167,26 +185,6 @@ header nav ul li {
   border: 1px solid black;
   border-radius: 5px;
   text-align: left;
-}
-
-.top-container-header {
-  padding: 5px;
-  color: #fff;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-align: left;
-  text-align: center;
- display: block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.0rem;
-  color: #005082;
-
-  margin-top: 5%;
-  
-  border-radius: 5px;
-  text-align: left;
-  /* margin-top: 25px; */
-
 }
 
 
