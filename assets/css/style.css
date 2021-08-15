@@ -146,16 +146,6 @@ header nav ul li {
   padding: 30px;
 }
 
-/* .middle-container-header {
-  font-size: 1.7rem;
-  padding: 30px;
-  position: absolute;
-  top: -60px;
-  left: 0px;
-  border-radius: 5px;
-  background-color: #f2f6f9;
-} */
-
 /* Bottom Container */
 .bottom-container {
   background-color: rgb(255, 255, 255, 0.7);
@@ -170,16 +160,6 @@ header nav ul li {
   position: relative;
   margin-top: 100px;
 }
-
-/* .bottom-container-header {
-  font-size: 1.7rem;
-  padding: 30px;
-  position: absolute;
-  top: -60px;
-  left: 0px;
-  border-radius: 5px;
-  background-color: #f2f6f9;
-} */
 
 .contact-link {
   text-align: center;
@@ -207,35 +187,34 @@ header nav ul li {
 }
 
 .card img {
-  width: 100%;
-  border: solid #80dfff 5px;
-  border-radius: 5%;
-
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid #30475e 2px;
 }
 
 .card-large img {
-  width: 100%;
-  border: solid #80dfff 5px;
-  border-radius: 5%;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid #30475e 2px;
 }
 
 .card-large header {
   padding: 5px;
-  color: black;
-  border-radius: 5px;
+  color: white;
   text-align: left;
   position: absolute;
-  background: #80dfff;
+  background: #30475e;
   padding: 10px 20px 10px 20px;
 }
 
 .card header {
   padding: 5px;
-  color: black;
-  border-radius: 5px;
+  color: white;
   text-align: left;
   position: absolute;
-  background: #80dfff;
+  background: #30475e;
   padding: 10px 20px 10px 20px;
 }
 
