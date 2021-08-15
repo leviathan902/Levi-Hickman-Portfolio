@@ -17,10 +17,6 @@ a {
   color: #f05454;
 }
 
-a:visited {
-  /* color: white; */
-}
-
 a:hover,
 a:focus {
   color: black;
@@ -90,15 +86,13 @@ header nav ul li {
   position: relative;
 }
 
-.top-container .img {
+.top-container img {
   padding: 10px;
-
-}
-
-.top-container .img img {
   width: 100%;
   border-radius: 25px;
+
 }
+
 
 .top-text {
   padding: 10px;
@@ -226,7 +220,7 @@ header nav ul li {
   /* on tablets, set columns to only be 50% of the width and not grow */
   .card-column {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
 
   /* select the last child to grow to full width if it has space to grow */
