@@ -14,6 +14,7 @@ A potential employer will likely want to view a potential employee's deployed po
 ![Screenshot 1](https://github.com/leviathan902/Levi-Hickman-Portfolio/blob/main/assets/images/Screenshot_1.PNG)
 ![Screenshot 2](https://github.com/leviathan902/Levi-Hickman-Portfolio/blob/main/assets/images/Screenshot_2.PNG)
 ![Screenshot 3](https://github.com/leviathan902/Levi-Hickman-Portfolio/blob/main/assets/images/Screenshot_3.PNG)
+![Screenshot 3](https://github.com/leviathan902/Levi-Hickman-Portfolio/blob/main/assets/images/Screenshot_4.PNG)
 
 ## Deployed Site ##
 https://leviathan902.github.io/Levi-Hickman-Portfolio/
